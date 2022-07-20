@@ -1,7 +1,10 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ArrayList {
+//Better in searching
+//uses Index
+//don't need iteration to get index
+public class TestArrayList {
 
     //fixed size
     static int simpleArray[]= new int[5];
@@ -20,6 +23,7 @@ public class ArrayList {
         myList.add(5);
         myList.add(8);
         myList.add(7);
+        System.out.println("Index 2 = " + myList.get(2));
 
         for (int el : myList){
             System.out.println(el);
